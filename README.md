@@ -11,11 +11,11 @@ It uses the FastLED library to help with the RGB driver board.
 This is a common way to hide secrets in your code when you want to share it. Basically, you need a folder called secrets with a file called secrets.h in the arduino libraries folder. In the file you declare constant strings, or whatever, that you need to use.
 
 ## Parts list
-NodeMCU TODO: add link
-LED strip driver TODO: add link
-N-channel Mosfet
-1k resistor
-100uf electrolytic capacitor
-2 voltage regulators (This part may change based on your needs or the LED strip you are using. Mine are 12v. The nodeMCU needs 5v. The LED driver board needs 12v and 5v.)
-  1 for 24v to 12v
-  1 for 12v to 5v
+ - NodeMCU TODO: add link
+ - LED strip driver TODO: add link
+ - N-channel Mosfet
+ - 1k resistor
+ - 100uf electrolytic capacitor
+ - 2 voltage regulators (This part may change based on your needs or the LED strip you are using. Mine are 12v. The nodeMCU needs 5v. The LED driver board needs 12v and 5v.)
+   - 1 for 24v to 12v
+   - 1 for 12v to 5v
